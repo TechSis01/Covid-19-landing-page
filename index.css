@@ -59,6 +59,9 @@ nav{
     color:#108E59;
     font-weight: bold;
 }
+.overview-txt p{
+    color:#4B4F51;
+}
 .btnn{
     color:white;
     background-color: #FB4C47;
@@ -96,6 +99,9 @@ nav{
 .abt-txt{
     align-self: center;
     line-height:2;
+}
+.abt-txt p{
+    color:#4B4F51;
 }
 .abt-btn{
     color:#FB4C47;
@@ -140,6 +146,9 @@ nav{
 .cont-header h1{
     color:#108E59;
 }
+.cont-header p{
+    color:#4B4F51;
+}
 .cont-flex{
     display:flex;
     justify-content: center;
@@ -164,6 +173,10 @@ nav{
 .card-txt{
     text-align: center;
 }
+.card-txt p{
+    color:#4B4F51;
+    line-height:1.5;
+}
 .card-txt h3{
     color:#108E59;
 }
@@ -184,13 +197,17 @@ nav{
 }
 .symptoms-header{
     text-align: center;
-    line-height: 1.5;
+    line-height: 2;
 }
 .symptoms-header h3{
     color:#FB4C47
 }
 .symptoms-header h1{
     color:#108E59
+}
+.symptoms-header p{
+    color:#4B4F51;
+    
 }
 .symptoms-img{
     display:flex;
@@ -208,13 +225,16 @@ nav{
 }
 .prevention-header{
     text-align: center;
-    line-height: 1.5;
+    line-height: 2;
 }
 .prevention-header h3{
     color:#FB4C47;
 }
 .prevention-header h1{
     color:#108E59;
+}
+.prevention-header p{
+    color:#4B4F51;
 }
 .prevention-flex{
     display:flex;
@@ -225,6 +245,7 @@ nav{
 }
 .prevention-flex-txt{
     align-self: center;
+    line-height:2;
 }
 .prevention-flex-x{
     display:flex;
@@ -491,6 +512,9 @@ input{
     }
     .email-flex-container{
         flex-direction: column;
+    }
+    .icon-box{
+        width:30%;
     }
 }
 @media only screen and (max-width: 768px) and (min-width: 481px){
