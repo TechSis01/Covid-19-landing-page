@@ -1,0 +1,732 @@
+/**{
+    outline:1px solid blue;
+}*/
+html{
+    font-size:62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 1.6rem;
+    overflow-x: hidden;
+    padding:0;
+    margin:0;
+    width:100%;
+    font-family: 'Open Sans', sans-serif;
+}
+main{
+    width:100%;
+}
+/*==============================================HEADER SECTION==========================================*/
+nav{
+    display:flex;
+    justify-content: space-between;
+    background-color: #ffe5ec;
+    padding-top:2%;
+}
+.nav-list{
+    display:flex;
+    width:50%;
+    justify-content: space-around;
+}
+.nav-list a{
+    text-decoration: none;
+}
+.cont,.symp,.pre{
+    color:#108E59;
+}
+.over,.con{
+    color:#FB4C47;
+}
+
+/*=====================================OVERVIEW SECTION=============================================*/
+#overview{
+    display:flex;
+    justify-content: center;
+    background-color: #ffe5ec;
+    padding-bottom: 5%;
+    margin-top:0;
+}
+.overview-txt{
+    align-self: center;
+    line-height:2;
+}
+.overview-txt h3{
+    color:#FB4C47;
+    font-weight:900;
+}
+.overview-txt h1{
+    color:#108E59;
+    font-weight: bold;
+}
+.btnn{
+    color:white;
+    background-color: #FB4C47;
+    padding:1em 2em;
+    border:1px solid #ffe5ec;
+    border-radius: 30px;
+    outline:none;
+}
+.btnn:hover{
+    background-color: #108E59;
+    color: white;
+}
+#overview img{
+    width:700px;
+}
+
+/*===================================================ABOUT US==================================*/
+#About-us{
+    display:flex;
+    position:relative;
+    
+}
+.abt-txt h3{
+    color:#FB4C47;
+    font-weight: bold;
+
+}
+.abt-txt h1{
+    color:#108E59;
+    font-weight: bold;
+}
+.abt-img{
+    width:700px;
+}
+.abt-txt{
+    align-self: center;
+    line-height:2;
+}
+.abt-btn{
+    color:#FB4C47;
+    background-color: #ffe5ec;
+    padding:1em 2em;
+    border:1px solid white;
+    border-radius: 30px;
+    outline:none;
+    font-weight:bold;
+}
+.abt-btn:hover{
+    background-color: #74c69d;
+    color:black;
+}
+.virus-1{
+    position:absolute;
+    right:5%;
+    top:65%;
+    width:80px;
+    height: 80px;
+}
+
+.virus-2{
+    position:absolute;
+    right:0%;
+    top:50%;
+    width:120px;
+    height: 100px;
+}
+
+/*=======================================CONTAGION==========================================*/
+#Contagion{
+    position:relative;
+}
+.cont-header{
+    text-align: center;
+    line-height: 2;
+}
+.cont-header h3{
+    color:#FB4C47;
+}
+.cont-header h1{
+    color:#108E59;
+}
+.cont-flex{
+    display:flex;
+    justify-content: center;
+    align-self: center;
+}
+.card{
+    background-color:#fdfffc;
+    border:1px solid white;
+    margin-right:3%;
+    padding:2% 2%;
+    box-shadow: 2px 3px 10px 3px grey;
+    border-radius:10px;
+    width:20%;
+    z-index:5;
+}
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+   /* z-index: 3;*/
+    border-color: #108E59;
+}
+.card-txt{
+    text-align: center;
+}
+.card-txt h3{
+    color:#108E59;
+}
+.virus-2a{
+    position:absolute;
+    top:40%;
+    left:1.5%;
+    width:100px;
+    height: 200px;
+    z-index:1;
+
+}
+
+
+/*==============================================SYMPTOMS==========================================*/
+#Symptoms{
+    padding-top:5%;
+}
+.symptoms-header{
+    text-align: center;
+    line-height: 1.5;
+}
+.symptoms-header h3{
+    color:#FB4C47
+}
+.symptoms-header h1{
+    color:#108E59
+}
+.symptoms-img{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.symptoms-img img{
+    width:700px;
+}
+
+/*=========================================PREVENTION==========================================*/
+#Prevention{
+    padding-top:5%;
+    position:relative;
+}
+.prevention-header{
+    text-align: center;
+    line-height: 1.5;
+}
+.prevention-header h3{
+    color:#FB4C47;
+}
+.prevention-header h1{
+    color:#108E59;
+}
+.prevention-flex{
+    display:flex;
+    justify-content: space-around;
+}
+.prevention-flex-img{
+    width:500px;
+}
+.prevention-flex-txt{
+    align-self: center;
+}
+.prevention-flex-x{
+    display:flex;
+}
+span{
+    color:#FB4C47;
+    background-color:#ffe5ec;
+    padding:1% 1%;
+    border-radius: 50%;
+
+}
+.prevention-flex-txt{
+    color:#108E59;
+}
+.virus-green{
+    position:absolute;
+    top:30%;
+}
+.virus-pink{
+    position:absolute;
+    right:0%;
+    bottom:10%;
+    width:100px;
+}
+.virus-small-green{
+    position:absolute;
+    bottom:15%;
+    right:5%;
+}
+
+/*=======================================MAP===================================*/
+#map{
+    background-color: #fafafa;
+    padding:5%;
+}
+.map-flex{
+    display:flex;
+    justify-content: space-around;
+}
+.map-img{
+    width:700px;
+}
+.country-card{
+    background-color: white;
+    padding:2% 0 30% 20%;
+    width:100%;
+    border-radius: 10px;;
+    color:#108E59;
+}
+.live-btn{
+    background-color: white;
+    padding: 5% 5%;
+    border:1px solid white;
+}
+.country-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.country-grid img{
+    width:30px;
+}
+.china{
+    color:#108E59;
+}
+.other{
+    color:red;
+}
+.question{
+    text-align: center;
+}
+.question h1{
+    color:#108E59;
+}
+.email-flex-container{
+    display:flex;
+    width:30%;
+    margin:0 auto;
+
+}
+input{
+     flex-grow: 2;
+     border: none;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 400px;
+    padding:5% 10%;
+    outline:none;
+}
+.email-flex-container button{
+    background-color: #FB4C47;
+    color:white;
+    border-radius: 30px;
+    border-color: #FB4C47;
+    padding:0 10%;
+}
+.email-flex-container button:hover{
+    background-color: #108E59;
+    color:white;
+    border-color: #108E59;
+}
+
+/*===================================================FOOTER================================================*/
+#Contact{
+    padding:5% 5%;
+    position:relative;
+}
+.contact-flex{
+    display:flex;
+    justify-content: space-around;
+}
+.contact-flex-2{
+    display:flex;
+    width:400px;
+    justify-content: space-around;
+}
+.contact-flex-2 a{
+    text-decoration: none;
+    color: #108E59;
+    font-weight: 600;
+}
+.contact-paragraph{
+    text-align: center;
+    color:#108E59;
+}
+.fa-youtube{
+    color:red;
+}
+.icon{
+    color:#108E59;
+}
+.icon-box{
+    width:20%;
+    
+}
+.fa-brands{
+    margin-right:5%;
+}
+.virus-footer-2{
+    position:absolute;
+    right:10%;
+    top:5%;
+    width:50px;
+}
+.virus-footer{
+    position:absolute;
+    right:0;
+    width:150px;
+    top:10%;
+}
+
+/*===========================================MEDIA QUERIES==========================================*/
+@media only screen and (max-width: 480px) and (min-width: 320px){
+    body{
+        overflow-x: clip;
+        width:100%;
+    }
+    .nav-logo{
+        width:20%;
+    
+    }
+    .logo{
+        width:100px;
+    }
+    .nav-list{
+        width:20%;
+        padding-right:30%;
+        font-size:1.0rem;
+        
+    }
+    #link{
+        margin-left:10%;
+    }
+    main{
+        font-size:1.4rem;
+    }
+    #overview{
+        flex-direction: column;
+        padding:0 5%;
+    }
+    #overview img{
+        width:100%;
+    }
+    #About-us{
+        flex-direction: column-reverse;
+        padding:0 5%;
+    }
+    .abt-img{
+        width:100%;
+    }
+    .virus-footer,.virus-footer-2,.virus-1,.virus-2,.virus-2a,.virus-green,.virus-pink,.virus-small-green{
+        display:none;
+    }
+    .cont-flex{
+        flex-direction: column;
+        padding:10% 0;
+        
+    }
+    .card{
+        width:50%;
+        align-self: center;
+        height:50%;
+        margin-bottom: 10%;
+    }
+    .card-img{
+        
+        width:100px;
+       
+    }
+    .card-img-div{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin:0 auto;
+    }
+    .symptoms-img{
+        width:100%;
+    }
+    .symptoms-img img{
+        width:300px;
+    }
+
+    .prevention-flex{
+        flex-direction: column;
+        padding:0 5%;
+    }
+    .prevention-flex-x{
+        flex-direction: column-reverse;
+        padding:0 5%;
+    }
+    .prevention-flex-img{
+        width:200px;
+    }
+    .prevention-header{
+        line-height: 1.2;
+    }
+    .pre-img{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .map-flex{
+        flex-direction:column ;
+
+    }
+    .map-img{
+        width:100%;
+    }
+    .contact-flex{
+        flex-direction: column;
+    }
+    .contact-flex-2{
+        flex-direction: column;
+    }
+    .country-card{
+        width:70%;
+        margin:0 auto;
+    }
+    .contact-flex-2{
+        width:30%;
+    }
+    input{
+        width:150px;
+    }
+    .email-flex-container{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 481px){
+    body{
+        overflow-x: clip;
+        width:100%;
+    }
+    .nav-logo{
+        width:20%;
+    
+    }
+    .logo{
+        width:100px;
+    }
+    .nav-list{
+        width:20%;
+        padding-right:15%;
+        font-size:1.0rem;
+        
+    }
+    #link{
+        margin-left:10%;
+    }
+    main{
+        font-size:1.6rem;
+    }
+    #overview{
+        flex-direction: column;
+    
+    }
+    #overview img{
+        width:100%;
+    }
+    #About-us{
+        flex-direction: column-reverse;
+    
+    }
+    .abt-img{
+        width:100%;
+    }
+    .virus-footer,.virus-footer-2,.virus-1,.virus-2,.virus-2a,.virus-green,.virus-pink,.virus-small-green{
+        display:none;
+    }
+    .cont-flex{
+        flex-direction: column;
+        padding:10% 0;
+        
+    }
+    .card{
+        width:50%;
+        align-self: center;
+        height:50%;
+        margin-bottom: 10%;
+    }
+    .card-img{
+        
+        width:100px;
+       
+    }
+    .card-img-div{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin:0 auto;
+    }
+    .symptoms-img{
+        width:100%;
+    }
+    .symptoms-img img{
+        width:300px;
+    }
+    .symptoms-header{
+        padding:0 5%;
+    }
+
+    .prevention-flex{
+        flex-direction: column;
+        padding:0 5%;
+    }
+    .prevention-flex-x{
+        flex-direction: column-reverse;
+        padding:0 5%;
+    }
+    .prevention-flex-img{
+        width:200px;
+    }
+    .prevention-header{
+        padding:0 5%;
+        line-height: 1.2;
+    }
+    .pre-img{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .map-flex{
+        flex-direction:column ;
+
+    }
+    .map-img{
+        width:100%;
+    }
+    .contact-flex{
+        flex-direction: column;
+    }
+    .contact-flex-2{
+        flex-direction: column;
+    }
+    .country-card{
+        width:70%;
+        margin:0 auto;
+    }
+    .contact-flex-2{
+        width:30%;
+    }
+    input{
+        width:150px;
+    }
+    .email-flex-container{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+    body{
+        overflow-x: clip;
+        width:100%;
+    }
+    .nav-logo{
+        width:20%;
+    
+    }
+    .logo{
+        width:100px;
+    }
+    .nav-list{
+        width:20%;
+        padding-right:10%;
+        font-size:1.0rem;
+        
+    }
+    #link{
+        margin-left:10%;
+    }
+    main{
+        font-size:1.6rem;
+    }
+    #overview{
+        flex-direction: column;
+        margin:0;
+    }
+    #overview img{
+        width:100%;
+    }
+    #About-us{
+        flex-direction: column-reverse;
+        
+    }
+    .abt-img{
+        width:100%;
+    }
+    .virus-footer,.virus-footer-2,.virus-1,.virus-2,.virus-2a,.virus-green,.virus-pink,.virus-small-green{
+        display:none;
+    }
+    .cont-flex{
+        flex-direction: column;
+        padding:10% 0;
+        
+    }
+    .card{
+        width:50%;
+        align-self: center;
+        height:50%;
+        margin-bottom: 10%;
+    }
+    .card-img{
+        
+        width:130px;
+       
+    }
+    .card-img-div{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin:0 auto;
+    }
+    .symptoms-header{
+        padding:0 5%;
+    }
+    .symptoms-img{
+        width:100%;
+    }
+    .symptoms-img img{
+        width:400px;
+    }
+
+    .prevention-flex{
+        flex-direction: column;
+        padding:0 5%;
+    }
+    .prevention-flex-x{
+        flex-direction: column-reverse;
+        padding:0 5%;
+    }
+    .prevention-flex-img{
+        width:200px;
+    }
+    .prevention-header{
+        padding:0 5%;
+        line-height: 1.2;
+    }
+    .pre-img{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .map-flex{
+        flex-direction:column ;
+
+    }
+    .map-img{
+        width:100%;
+    }
+    .contact-flex-2{
+        flex-direction: column;
+    }
+    .country-card{
+        width:70%;
+        margin:0 auto;
+    }
+    .contact-flex-2{
+        width:30%;
+    }
+    input{
+        width:150px;
+    }
+    .email-flex-container{
+        flex-direction: column;
+    }
+}
