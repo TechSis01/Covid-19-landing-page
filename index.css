@@ -235,6 +235,7 @@ nav{
 }
 .prevention-header p{
     color:#4B4F51;
+    line-height:2;
 }
 .prevention-flex{
     display:flex;
@@ -515,6 +516,12 @@ input{
     }
     .icon-box{
         width:30%;
+    }
+    .email-flex-container button{
+        padding:3% 5%;
+    }
+    input{
+        padding:5% 5%;
     }
 }
 @media only screen and (max-width: 768px) and (min-width: 481px){
